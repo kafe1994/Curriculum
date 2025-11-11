@@ -24,7 +24,7 @@
         
         body {
             font-family: 'Inter', sans-serif;
-            line-height: 1.5;
+            line-height: 1.6;
             color: var(--text-color);
             background-color: var(--light-bg);
             padding: 10px;
@@ -36,7 +36,7 @@
             margin: 0 auto;
             background: var(--white);
             box-shadow: 0 5px 25px rgba(0,0,0,0.1);
-            padding: 20mm;
+            padding: 25mm;
             position: relative;
         }
         
@@ -47,18 +47,18 @@
         .cv-header {
             display: flex;
             align-items: center;
-            margin-bottom: 25px;
-            padding-bottom: 15px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
             border-bottom: 2px solid var(--secondary-color);
         }
         
         .photo-container {
-            width: 110px;
-            height: 110px;
+            width: 130px;
+            height: 130px;
             border-radius: 50%;
             overflow: hidden;
-            border: 3px solid var(--secondary-color);
-            margin-right: 25px;
+            border: 4px solid var(--secondary-color);
+            margin-right: 35px;
             flex-shrink: 0;
         }
         
@@ -74,210 +74,213 @@
         
         .name {
             font-family: 'Source Sans Pro', sans-serif;
-            font-size: 1.8em;
+            font-size: 2.2em;
             font-weight: 700;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
             color: var(--primary-color);
+            letter-spacing: 0.5px;
         }
         
         .title {
-            font-size: 1.1em;
+            font-size: 1.3em;
             font-weight: 500;
-            margin-bottom: 12px;
+            margin-bottom: 20px;
             color: var(--secondary-color);
         }
         
         .personal-info {
             display: flex;
-            gap: 15px;
-            margin-bottom: 8px;
-            font-size: 0.9em;
+            gap: 25px;
+            margin-bottom: 12px;
+            font-size: 1em;
         }
         
         .contact-info {
             display: flex;
             flex-wrap: wrap;
-            gap: 15px;
-            font-size: 0.9em;
+            gap: 20px;
+            font-size: 1em;
         }
         
         .contact-item {
             display: flex;
             align-items: center;
-            gap: 5px;
+            gap: 8px;
         }
         
         .cv-body {
             display: grid;
             grid-template-columns: 1fr 1.8fr;
-            gap: 25px;
+            gap: 30px;
         }
         
         .sidebar {
-            padding-right: 20px;
+            padding-right: 25px;
             border-right: 1px solid #e0e0e0;
         }
         
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
         
         .section-title {
             font-family: 'Source Sans Pro', sans-serif;
-            font-size: 1.1em;
+            font-size: 1.2em;
             font-weight: 700;
             color: var(--primary-color);
-            margin-bottom: 12px;
-            padding-bottom: 5px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
             border-bottom: 2px solid var(--secondary-color);
             text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
         
         .skill-item {
-            margin-bottom: 12px;
+            margin-bottom: 15px;
         }
         
         .skill-name {
             display: block;
-            margin-bottom: 4px;
+            margin-bottom: 6px;
             font-weight: 500;
-            font-size: 0.9em;
+            font-size: 1em;
         }
         
         .skill-bar {
-            height: 6px;
+            height: 8px;
             background: #e0e0e0;
-            border-radius: 3px;
+            border-radius: 4px;
             overflow: hidden;
         }
         
         .skill-level {
             height: 100%;
             background: var(--secondary-color);
-            border-radius: 3px;
+            border-radius: 4px;
         }
         
         .experience-item, .education-item {
-            margin-bottom: 18px;
+            margin-bottom: 20px;
         }
         
         .job-title {
             font-weight: 600;
             color: var(--primary-color);
-            font-size: 1em;
-            margin-bottom: 3px;
+            font-size: 1.1em;
+            margin-bottom: 5px;
         }
         
         .company {
             color: var(--secondary-color);
             font-weight: 500;
-            font-size: 0.9em;
-            margin-bottom: 2px;
+            font-size: 1em;
+            margin-bottom: 3px;
         }
         
         .date {
             color: #666;
-            font-size: 0.85em;
-            margin: 3px 0;
+            font-size: 0.95em;
+            margin: 5px 0;
             font-style: italic;
         }
         
         .description {
-            margin-top: 8px;
-            font-size: 0.9em;
-            line-height: 1.4;
+            margin-top: 10px;
+            font-size: 1em;
+            line-height: 1.5;
         }
         
         .description li {
-            margin-bottom: 3px;
+            margin-bottom: 5px;
         }
         
         .tag {
             display: inline-block;
             background: var(--light-bg);
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 0.8em;
-            margin: 2px;
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            margin: 4px;
             border: 1px solid #e0e0e0;
         }
         
         .about-text {
             text-align: justify;
-            line-height: 1.5;
-            font-size: 0.9em;
+            line-height: 1.6;
+            font-size: 1em;
         }
         
         .sub-section {
-            margin: 12px 0;
+            margin: 15px 0;
         }
         
         .sub-title {
             font-weight: 600;
             color: var(--primary-color);
-            font-size: 0.9em;
-            margin-bottom: 6px;
+            font-size: 1em;
+            margin-bottom: 8px;
         }
         
         /* Segunda página */
         .certificate-section {
-            margin: 20px 0;
+            margin: 30px 0;
         }
         
         .personal-description {
             background: var(--light-bg);
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
             border-left: 4px solid var(--secondary-color);
         }
         
         .description-title {
-            font-size: 1.2em;
+            font-size: 1.3em;
             font-weight: 600;
             color: var(--primary-color);
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             text-align: center;
         }
         
         .description-text {
-            line-height: 1.6;
-            font-size: 0.95em;
+            line-height: 1.7;
+            font-size: 1.05em;
             text-align: justify;
             color: var(--text-color);
         }
         
         .certificate-title {
             font-family: 'Source Sans Pro', sans-serif;
-            font-size: 1.3em;
+            font-size: 1.4em;
             font-weight: 700;
             color: var(--primary-color);
-            margin-bottom: 15px;
+            margin-bottom: 25px;
             text-align: center;
         }
         
         .certificate-image {
-            max-width: 70%;
+            max-width: 80%;
             height: auto;
             border: 1px solid #e0e0e0;
-            border-radius: 6px;
-            margin: 15px auto;
+            border-radius: 8px;
+            margin: 20px auto;
             display: block;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
         }
         
         .certificate-info {
             text-align: center;
-            margin: 15px 0;
-            font-size: 0.9em;
-            line-height: 1.5;
+            margin: 20px 0;
+            font-size: 1em;
+            line-height: 1.6;
         }
         
         .portfolio-section {
             text-align: center;
-            margin: 20px 0;
-            padding: 20px;
+            margin: 30px 0;
+            padding: 25px;
             background: var(--light-bg);
-            border-radius: 8px;
+            border-radius: 10px;
             border-left: 4px solid var(--secondary-color);
         }
         
@@ -285,67 +288,72 @@
             display: inline-block;
             color: var(--secondary-color);
             text-decoration: none;
-            font-size: 1.1em;
+            font-size: 1.2em;
             font-weight: 600;
-            padding: 8px 20px;
+            padding: 10px 25px;
             border: 2px solid var(--secondary-color);
-            border-radius: 20px;
+            border-radius: 25px;
             transition: all 0.3s ease;
-            margin: 10px 0;
+            margin: 15px 0;
+        }
+        
+        .portfolio-link:hover {
+            background: var(--secondary-color);
+            color: white;
         }
         
         .qr-container {
-            margin: 15px 0;
+            margin: 20px 0;
             text-align: center;
         }
         
         .qr-code {
-            width: 120px;
-            height: 120px;
+            width: 140px;
+            height: 140px;
             border: 2px solid #e0e0e0;
-            border-radius: 6px;
+            border-radius: 8px;
             background: white;
-            padding: 4px;
+            padding: 5px;
             margin: 0 auto;
         }
         
         .availability {
             background: var(--light-bg);
-            padding: 20px;
+            padding: 30px;
             border-radius: 8px;
             border-left: 4px solid var(--secondary-color);
-            margin: 20px 0;
+            margin: 25px 0;
         }
         
         .availability-title {
-            font-size: 1.2em;
+            font-size: 1.3em;
             font-weight: 600;
             color: var(--primary-color);
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
         
         .availability-item {
-            margin: 10px 0;
+            margin: 15px 0;
             display: flex;
             align-items: center;
-            gap: 8px;
-            font-size: 0.95em;
+            gap: 12px;
+            font-size: 1.05em;
         }
         
         .checkmark {
             color: #27ae60;
             font-weight: bold;
-            font-size: 1.1em;
+            font-size: 1.2em;
         }
         
         .footer {
             text-align: center;
-            margin-top: 25px;
-            padding-top: 15px;
+            margin-top: 40px;
+            padding-top: 20px;
             border-top: 1px solid #e0e0e0;
             font-style: italic;
             color: #666;
-            font-size: 0.85em;
+            font-size: 0.9em;
         }
         
         /* Mejoras para impresión */
@@ -357,8 +365,13 @@
             
             .page {
                 box-shadow: none;
-                padding: 15mm;
+                padding: 20mm;
                 margin: 0;
+            }
+            
+            .portfolio-link:hover {
+                background: transparent;
+                color: var(--secondary-color);
             }
         }
         
@@ -374,7 +387,7 @@
             
             .photo-container {
                 margin-right: 0;
-                margin-bottom: 15px;
+                margin-bottom: 20px;
             }
             
             .sidebar {
@@ -437,10 +450,26 @@
                                 <div class="skill-level" style="width: 70%;"></div>
                             </div>
                         </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Lógica de Programación</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
                     </div>
                     
                     <div class="sub-section">
-                        <div class="sub-title">Herramientas</div>
+                        <div class="sub-title">Seguridad Informática</div>
+                        <div class="skill-item">
+                            <span class="skill-name">Ciberseguridad</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 60%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="sub-section">
+                        <div class="sub-title">Herramientas Office</div>
                         <div class="skill-item">
                             <span class="skill-name">Microsoft Word</span>
                             <div class="skill-bar">
@@ -481,14 +510,27 @@
                         <div class="skill-bar">
                             <div class="skill-level" style="width: 100%;"></div>
                         </div>
-                        <span style="font-size: 0.8em; color: #666; margin-left: 5px;">(Nativo)</span>
+                        <span style="font-size: 0.9em; color: #666; margin-left: 5px;">(Nativo)</span>
                     </div>
                     <div class="skill-item">
                         <span class="skill-name">Inglés</span>
                         <div class="skill-bar">
                             <div class="skill-level" style="width: 45%;"></div>
                         </div>
-                        <span style="font-size: 0.8em; color: #666; margin-left: 5px;">(Básico)</span>
+                        <span style="font-size: 0.9em; color: #666; margin-left: 5px;">(Básico)</span>
+                    </div>
+                </section>
+                
+                <section class="section">
+                    <h2 class="section-title">ÁREAS DE INTERÉS</h2>
+                    <div class="tags">
+                        <span class="tag">Programación</span>
+                        <span class="tag">Seguridad Informática</span>
+                        <span class="tag">Tecnologías Emergentes</span>
+                        <span class="tag">Diseño Gráfico</span>
+                        <span class="tag">Branding Digital</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Bases de Datos</span>
                     </div>
                 </section>
             </aside>
@@ -497,10 +539,11 @@
                 <section class="section">
                     <h2 class="section-title">SOBRE MÍ</h2>
                     <p class="about-text">
-                        Persona autodidacta con gran capacidad de aprendizaje rápido en programación y ciberseguridad. 
-                        Aunque no cuento con muchos certificados, mi habilidad para aprender nuevos lenguajes y tecnologías 
-                        es excepcional. Tengo pasión genuina por la tecnología y gran determinación para crecer profesionalmente 
-                        en el área de desarrollo y seguridad informática.
+                        Soy una persona autodidacta con gran capacidad de aprendizaje rápido en 
+                        programación y ciberseguridad. Aunque no cuento con muchos certificados, mi habilidad 
+                        para aprender nuevos lenguajes y tecnologías es excepcional. Tengo pasión genuina por 
+                        la tecnología y una gran determinación para crecer profesionalmente en el área de 
+                        desarrollo y seguridad informática.
                     </p>
                 </section>
                 
@@ -515,8 +558,9 @@
                             <li>Limpieza y organización del local comercial</li>
                             <li>Realización de servicios técnicos a vehículos</li>
                         </ul>
-                        <div style="margin-top: 8px; font-size: 0.85em; color: #666;">
-                            <strong>Referencia:</strong> Propietario de la concesionaria - Contacto: +54 9 3572 59-2411
+                        <div style="margin-top: 12px; font-size: 0.9em; color: #666; background: #f5f5f5; padding: 8px; border-radius: 5px;">
+                            <strong>Referencia laboral:</strong> Propietario de la concesionaria<br>
+                            <strong>Contacto:</strong> +54 9 3572 59-2411
                         </div>
                     </div>
                     <div class="experience-item">
@@ -526,6 +570,7 @@
                             <li>Manipulación y manejo de herramientas especializadas</li>
                             <li>Colaboración en tareas de reparación y fabricación</li>
                             <li>Aplicación de técnicas básicas de soldadura</li>
+                            <li>Mantenimiento de equipos de trabajo</li>
                         </ul>
                     </div>
                 </section>
@@ -536,8 +581,8 @@
                         <div class="job-title">Programación desde Cero</div>
                         <div class="company">EDteam</div>
                         <div class="date">Enero 2021</div>
-                        <div style="font-size: 0.9em; color: #666; margin-top: 4px;">
-                            Fundamentos de programación, algoritmos y lógica computacional
+                        <div style="font-size: 0.95em; color: #666; margin-top: 6px; line-height: 1.4;">
+                            Curso de fundamentos de programación, algoritmos y lógica computacional
                         </div>
                     </div>
                     <div class="education-item">
@@ -555,17 +600,11 @@
         <section class="personal-description">
             <h2 class="description-title">ACERCA DE MÍ</h2>
             <div class="description-text">
-                Persona apasionada por la tecnología con fuerte inclinación hacia el aprendizaje autodidacta. Mi recorrido profesional 
-                me ha permitido desarrollar mentalidad analítica y resolutiva, especialmente durante mis años de experiencia en 
-                mantenimiento automotriz donde aprendí la importancia del diagnóstico preciso y la atención al detalle.
+                Soy una persona apasionada por la tecnología con una fuerte inclinación hacia el aprendizaje autodidacta. Mi recorrido profesional me ha permitido desarrollar una mentalidad analítica y resolutiva, especialmente durante mis años de experiencia en mantenimiento automotriz donde aprendí la importancia del diagnóstico preciso y la atención al detalle.
                 <br><br>
-                Mi transición hacia la programación ha sido motivada por el constante deseo de aprender y evolucionar. He dedicado 
-                tiempo considerable a estudiar Python, JavaScript y desarrollo web, completando formaciones especializadas que me 
-                han proporcionado bases sólidas para abordar proyectos tecnológicos.
+                Mi transición hacia la programación ha sido motivada por el constante deseo de aprender y evolucionar. He dedicado tiempo considerable a estudiar Python, JavaScript y desarrollo web, completando formaciones especializadas que me han proporcionado las bases sólidas para abordar proyectos tecnológicos.
                 <br><br>
-                Mi perfil se caracteriza por capacidad de adaptación rápida, perseverancia ante desafíos y compromiso con el crecimiento 
-                profesional continuo. Busco oportunidades donde pueda aplicar mis habilidades técnicas mientras continúo expandiendo 
-                mi conocimiento en tecnología y ciberseguridad.
+                Mi perfil se caracteriza por la capacidad de adaptación rápida, la perseverancia ante los desafíos y el compromiso con el crecimiento profesional continuo. Busco oportunidades donde pueda aplicar mis habilidades técnicas mientras continúo expandiendo mi conocimiento en el ámbito de la tecnología y la ciberseguridad.
             </div>
         </section>
 
@@ -581,14 +620,14 @@
         </section>
 
         <section class="portfolio-section">
-            <h3 style="margin-bottom: 15px; color: var(--primary-color); font-size: 1.2em;">PORTFOLIO DIGITAL</h3>
-            <p style="margin-bottom: 15px; font-size: 0.95em;">Para más sobre mí, visita mi portafolio</p>
+            <h3 style="margin-bottom: 20px; color: var(--primary-color); font-size: 1.3em;">PORTFOLIO DIGITAL</h3>
+            <p style="margin-bottom: 20px; font-size: 1.05em;">Para más sobre mí, visita mi portafolio</p>
             <a href="https://alejandroliendo.site" class="portfolio-link">
                 alejandroliendo.site
             </a>
             <div class="qr-container">
                 <img src="qr.jpg" alt="QR Code para portafolio personal" class="qr-code">
-                <div style="margin-top: 8px; font-size: 0.85em; color: #666;">Escanear para acceder al portafolio</div>
+                <div style="margin-top: 12px; font-size: 0.95em; color: #666;">Escanear para acceder al portafolio</div>
             </div>
         </section>
 
@@ -601,13 +640,13 @@
                 <span class="checkmark">✓</span> Horario flexible y disposición para trabajo presencial o remoto
             </div>
             <div class="availability-item">
-                <span class="checkmark">✓</span> Disposición para capacitación adicional en nuevas tecnologías
+                <span class="checkmark">✓</span> Disposición para capacitación adicional y certificación en nuevas tecnologías
             </div>
             <div class="availability-item">
-                <span class="checkmark">✓</span> Compromiso con crecimiento profesional continuo
+                <span class="checkmark">✓</span> Compromiso con el crecimiento profesional continuo en el área tecnológica
             </div>
             <div class="availability-item">
-                <span class="checkmark">✓</span> Capacidad para trabajar en equipo y metodologías ágiles
+                <span class="checkmark">✓</span> Capacidad para trabajar en equipo y adaptarse a metodologías ágiles
             </div>
         </section>
 
