@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador QR - Alejandro Liendo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+            background: #f5f5f5;
+        }
+        .qr-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .qr-code {
+            margin: 20px 0;
+        }
+        .download-btn {
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .download-btn:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="qr-container">
+        <h1>QR Code para alejandroliendo.site</h1>
+        <div class="qr-code">
+            <img id="qrImage" src="" alt="QR Code" style="width: 200px; height: 200px;">
+        </div>
+        <div>
+            <button class="download-btn" onclick="downloadQR()">Descargar QR</button>
+            <button class="download-btn" onclick="refreshQR()">Actualizar QR</button>
+        </div>
+        <p>Este QR enlaza a: <strong>alejandroliendo.site</strong></p>
+    </div>
+
+    <script>
+        const url = 'https://alejandroliendo.site';
+        const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(url)}`;
+        
+        function loadQR() {
+            document.getElementById('qrImage').src = qrUrl;
+        }
+        
+        function downloadQR() {
+            const link = document.createElement('a');
+            link.href = qrUrl;
+            link.download = 'qr-alejandroliendo.png';
+            link.click();
+        }
+        
+        function refreshQR() {
+            const img = document.getElementById('qrImage');
+            img.src = qrUrl + '&t=' + Date.now();
+        }
+        
+        // Cargar QR al iniciar
+        loadQR();
+    </script>
+</body>
+</html>
