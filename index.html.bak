@@ -617,7 +617,7 @@
                 alejandroliendo.site
             </a>
             <div class="qr-container">
-                <img src="qr.png" alt="QR Code para portafolio personal" class="qr-code">
+                <img src="qr.jpg" alt="QR Code para portafolio personal" class="qr-code">
                 <div style="margin-top: 8px; font-size: 0.85em; color: #666;">Escanear para acceder al portafolio</div>
             </div>
         </section>
