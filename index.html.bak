@@ -506,8 +506,9 @@
     <div class="page">
         <header class="cv-header">
             <div class="photo-container">
-                <!-- Imagen de perfil corregida -->
-                <img src="1.jpg" alt="Foto de perfil de Alejandro Liendo">
+                <div style="width:100%;height:100%;background:#ddd;display:flex;align-items:center;justify-content:center;color:#666;">
+                    Foto
+                </div>
             </div>
             <div class="header-info">
                 <h1 class="name">ALEJANDRO LIENDO</h1>
@@ -703,8 +704,10 @@
 
         <section class="certificate-section">
             <h2 class="certificate-title">CERTIFICADO DE FORMACIÓN</h2>
-            <!-- Imagen del certificado corregida -->
-            <img src="edteam.png" alt="Certificado EDteam" class="certificate-image">
+            <div style="text-align:center;margin:20px 0;padding:30px;background:#f5f5f5;border:1px solid #ddd;border-radius:8px;">
+                <strong>Certificado EDteam - Programación desde Cero</strong><br>
+                (Aquí iría la imagen del certificado)
+            </div>
             <div class="certificate-info">
                 <p><strong>Curso:</strong> Programación desde Cero (EDteam - 2020)</p>
                 <p><strong>Duración:</strong> 5 Horas | <strong>Fecha:</strong> 23 de enero de 2021</p>
@@ -720,8 +723,9 @@
                 alejandroliendo.site
             </a>
             <div class="qr-container">
-                <!-- Imagen del código QR corregida -->
-                <img src="qr.png" alt="Código QR para portfolio" class="qr-code">
+                <div style="width:110px;height:110px;background:#f5f5f5;border:2px solid #ddd;border-radius:8px;margin:0 auto;display:flex;align-items:center;justify-content:center;">
+                    QR Code
+                </div>
                 <div style="margin-top: 6px; font-size: 0.8em; color: #666;">Escanear para acceder al portafolio</div>
             </div>
         </section>
@@ -781,6 +785,8 @@
             `);
             printWindow.document.close();
         }
+        
+
     </script>
 </body>
 </html>
