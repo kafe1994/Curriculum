@@ -5,24 +5,28 @@ Curriculum vitae profesional de Alejandro Liendo, Desarrollador Web Freelance es
 
 ## Características
 - ✅ **Optimizado para 2 páginas A4 máximo** (210mm x 297mm)
-- ✅ **Márgenes reducidos** (10mm) para máxima información
-- ✅ **Layout compacto** con información condensada sin perder profesionalismo
+- ✅ **Versión 3.0 - Optimización extrema** (Noviembre 2025)
+- ✅ **Sección "Valor Agregado" eliminada** para ahorrar espacio
+- ✅ **Certificado reposicionado al final de página 2**
+- ✅ **Márgenes 10mm** para máxima información
+- ✅ **Layout compacto** con información ultra-condensada
 - ✅ **Barras de progreso eliminadas** - Habilidades en listas compactas
+- ✅ **Servicios en formato columnas** para mejor aprovechamiento
 - ✅ **Layout de 2 columnas profesional** (30% / 70%)
 - ✅ **Assets integrados** (foto de perfil, QR del portafolio, certificado)
-- ✅ **Información completa** y condensada (Noviembre 2025)
 - ✅ **Optimizado para Cloudflare Pages**
 
 ## Estructura del Proyecto
 ```
 cv-portfolio/
-├── index.html              # CV principal
+├── index.html              # CV principal (Versión 3.0)
 ├── assets/
 │   ├── images/
 │   │   └── cv_assets/      # Foto, QR, certificado
 │   ├── css/               # Estilos adicionales (futuro)
 │   └── js/                # JavaScript adicional (futuro)
 ├── docs/                  # Documentación
+│   └── OPTIMIZACION_CV_2_PAGINAS.md  # Detalles de optimización
 └── README.md              # Este archivo
 ```
 
@@ -50,13 +54,13 @@ cv-portfolio/
 ## Certificaciones
 - **Programación desde Cero** - EDteam (Enero 2021)
   - ID: 250896205-172ecd07-bbc5-471a-9ac1-84b2fd548725
+  - ✅ **Reposicionado al final de página 2**
 
 ## Servicios
-- Diseño Web Profesional
-- Landing Pages de alta conversión
-- Diseño UX/UI
-- Optimización de Conversión
-- SEO y Posicionamiento
+- 🌐 Diseño Web (Sitios responsive y modernos)
+- 📄 Landing Pages (Alta conversión)
+- 🎨 UX/UI Design (Experiencias intuitivas)
+- 🔍 SEO & Optimización (Mejores rankings)
 
 ## Instrucciones de Despliegue
 
@@ -76,14 +80,18 @@ cv-portfolio/
    - Orientación: Vertical
    - Márgenes: 10mm (optimizados)
    - ✅ **Garantiza que cabe en 2 páginas máximo**
+   - ✅ **Certificado aparece al final de página 2**
 
 ## Autor
 Generado por MiniMax Agent - Noviembre 2025
 
 ## Actualizaciones
-- **Noviembre 2025**: Optimización completa para **2 páginas A4 máximo**
-  - Eliminación de barras de progreso → listas compactas
-  - Reducción de márgenes: 15mm → 10mm
-  - Fuentes optimizadas: 11px → 10px
-  - Espaciado compacto: interlineado 1.4 → 1.2
-  - Contenido condensado manteniendo profesionalismo
+- **Noviembre 2025 - Versión 3.0**: Optimización extrema para **2 páginas A4 máximo**
+  - ❌ **Sección "Valor Agregado" eliminada**
+  - ❌ **Logros destacados en experiencia eliminados**
+  - ✅ **Certificado reposicionado al final de página 2**
+  - ✅ **Servicios convertidos a formato columnas**
+  - ✅ **Disponibilidad ultra-compacta**
+  - ✅ **Portafolio simplificado**
+  - ✅ **Resumen profesional condensado a 1 párrafo**
+  - ✅ **Control CSS específico para saltos de página**

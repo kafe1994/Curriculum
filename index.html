@@ -485,6 +485,13 @@
             clear: both;
         }
 
+        /* Control específico para certificado al final de página 2 */
+        .certificate-display {
+            page-break-before: auto;
+            break-before: auto;
+            margin-top: auto;
+        }
+
         /* Corrección para PDF con información faltante */
         .double-email {
             margin-bottom: 6px;
@@ -599,9 +606,7 @@
             <div class="main-section">
                 <h2 class="section-title">Resumen Profesional</h2>
                 <div class="section-content profile-text">
-                    <p>Desarrollador web freelance con 4 años de experiencia creando soluciones digitales efectivas. Me especializo en diseñar y desarrollar sitios web que no solo se ven bien, sino que convierten visitantes en clientes. Mi enfoque combina diseño UX/UI moderno con optimización SEO y mejores prácticas de conversión web.</p>
-                    
-                    <p>Transición exitosa desde el sector técnico-mecánico hacia el desarrollo web, dotándome de una mentalidad analítica y orientada a la resolución de problemas, combinada con creatividad y pasión por la tecnología.</p>
+                    <p>Desarrollador web freelance con 4 años de experiencia creando soluciones digitales efectivas. Me especializo en diseño UX/UI moderno, desarrollo frontend y optimización SEO. Combino mentalidad analítica con creatividad para desarrollar sitios web que convierten visitantes en clientes.</p>
                 </div>
             </div>
 
@@ -614,18 +619,10 @@
                     <div class="company-info">Trabajo Independizado • 2021 - Presente</div>
                     <div class="job-description">
                         <ul>
-                            <li>Diseño y desarrollo de sitios web responsive para clientes diversos</li>
-                            <li>Creación de landing pages optimizadas para conversión</li>
-                            <li>Implementación de estrategias SEO y mejora de posicionamiento web</li>
-                            <li>Diseño UX/UI centrado en la experiencia del usuario</li>
-                        </ul>
-                    </div>
-                    <div class="achievements">
-                        <div class="achievements-title">Logros Destacados:</div>
-                        <ul>
-                            <li>Desarrollo exitoso de múltiples proyectos para empresas</li>
-                            <li>Implementación de estrategias de conversión efectivas</li>
-                            <li>Optimización de sitios web existentes con mejoras medibles</li>
+                            <li>Diseño y desarrollo de sitios web responsive</li>
+                            <li>Creación de landing pages de alta conversión</li>
+                            <li>Implementación de estrategias SEO</li>
+                            <li>Diseño UX/UI y optimización web</li>
                         </ul>
                     </div>
                 </div>
@@ -670,99 +667,74 @@
                 </div>
             </div>
 
-            <!-- Certificados -->
+
+
+            <!-- Servicios Profesionales -->
             <div class="main-section">
-                <h2 class="section-title">Certificado de Formación</h2>
-                <div class="certificate-display clearfix">
-                    <img src="assets/images/cv_assets/edteam.png" alt="Certificado EDteam" class="certificate-image">
-                    <div class="certificate-info">
-                        <div class="certificate-title">Programación desde Cero (Gratis - Edición 2020)</div>
-                        <div class="certificate-details">
-                            <strong>EDteam</strong> • 5 Horas de capacitación • 23 de enero de 2021<br>
-                            <em>"Programar no se trata de código, se trata de lógica. Este curso te enseña la lógica que te permitirá dominar cualquier lenguaje."</em><br>
-                            <strong>ID de Verificación:</strong> 250896205-172ecd07-bbc5-471a-9ac1-84b2fd548725
+                <h2 class="section-title">Servicios</h2>
+                <div class="section-content">
+                    <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 9px;">
+                        <div style="flex: 1; min-width: 150px;">
+                            <strong>🌐 Diseño Web</strong><br>
+                            <span style="color: #666;">Sitios responsive y modernos</span>
+                        </div>
+                        <div style="flex: 1; min-width: 150px;">
+                            <strong>📄 Landing Pages</strong><br>
+                            <span style="color: #666;">Alta conversión</span>
+                        </div>
+                        <div style="flex: 1; min-width: 150px;">
+                            <strong>🎨 UX/UI Design</strong><br>
+                            <span style="color: #666;">Experiencias intuitivas</span>
+                        </div>
+                        <div style="flex: 1; min-width: 150px;">
+                            <strong>🔍 SEO & Optimización</strong><br>
+                            <span style="color: #666;">Mejores rankings</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Servicios Profesionales -->
+            <!-- Disponibilidad -->
             <div class="main-section">
-                <h2 class="section-title">Servicios Profesionales</h2>
-                <div class="section-content">
-                    <div style="margin-bottom: 10px;">
-                        <strong>🌐 Diseño Web Profesional</strong><br>
-                        <span style="font-size: 9px; color: #666;">Sitios web modernos, responsive y optimizados</span>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <strong>📄 Landing Pages</strong><br>
-                        <span style="font-size: 9px; color: #666;">Páginas de aterrizaje de alta conversión</span>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <strong>🎨 Diseño UX/UI</strong><br>
-                        <span style="font-size: 9px; color: #666;">Experiencias de usuario intuitivas</span>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <strong>🔍 SEO y Optimización</strong><br>
-                        <span style="font-size: 9px; color: #666;">Mejores rankings en buscadores</span>
-                    </div>
-                    
-                    <div class="additional-services">
-                        <div class="additional-services-title">Servicios Adicionales:</div>
-                        <ul style="list-style-type: disc; padding-left: 15px; font-size: 9px;">
-                            <li>Consultoría en desarrollo web</li>
-                            <li>Auditoría de sitios web existentes</li>
-                            <li>Estrategias de marketing digital</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Disponibilidad y Compromiso -->
-            <div class="main-section">
-                <h2 class="section-title">Disponibilidad y Compromiso</h2>
-                <div class="section-content">
-                    <div style="margin-bottom: 10px;">
-                        <strong style="font-size: 10px; color: #1a2a3a;">Modalidad:</strong>
-                        <ul style="list-style: none; padding-left: 0; margin-top: 6px; font-size: 9px;">
-                            <li style="margin-bottom: 3px;">✓ Disponibilidad inmediata para proyectos freelance</li>
-                            <li style="margin-bottom: 3px;">✓ Horario flexible (remoto/presencial)</li>
-                            <li>✓ Proyectos puntuales o largo plazo</li>
-                        </ul>
-                    </div>
-                    
-                    <div style="margin-bottom: 10px;">
-                        <strong style="font-size: 10px; color: #1a2a3a;">Compromiso:</strong>
-                        <ul style="list-style: none; padding-left: 0; margin-top: 6px; font-size: 9px;">
-                            <li style="margin-bottom: 3px;">✓ Nuevas tecnologías según requerimientos</li>
-                            <li style="margin-bottom: 3px;">✓ Comunicación directa y transparente</li>
-                            <li>✓ Cumplimiento de deadlines y calidad</li>
-                        </ul>
+                <h2 class="section-title">Disponibilidad</h2>
+                <div class="section-content" style="font-size: 9px;">
+                    <div style="display: flex; gap: 20px;">
+                        <div>
+                            <strong>Modalidad:</strong><br>
+                            • Remoto/presencial<br>
+                            • Horario flexible
+                        </div>
+                        <div>
+                            <strong>Compromiso:</strong><br>
+                            • Comunicación directa<br>
+                            • Calidad garantizada
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Portafolio Digital -->
             <div class="main-section">
-                <h2 class="section-title">Portafolio Digital</h2>
+                <h2 class="section-title">Portafolio</h2>
                 <div class="section-content">
-                    <p style="margin-bottom: 8px; font-size: 10px;"><strong>🌐 Explora mis proyectos:</strong></p>
-                    <p style="font-size: 11px; color: #1a2a3a; font-weight: bold;">https://alejandroliendo.site</p>
-                    <p style="font-size: 9px; color: #666; margin-top: 4px;">Portfolio con ejemplos y testimonios</p>
+                    <p style="font-size: 10px; color: #1a2a3a; font-weight: bold; margin-bottom: 4px;">🌐 alejandroliendo.site</p>
+                    <p style="font-size: 9px; color: #666;">Portfolio con proyectos y testimonios</p>
                 </div>
             </div>
-
-            <!-- Valor Agregado -->
-            <div class="value-added">
-                <div class="value-added-title">VALOR AGREGADO</div>
-                <div class="value-added-content">
-                    <p style="margin-bottom: 8px; text-align: center; font-size: 9px;"><em>Mi background técnico-mecánico aporta:</em></p>
-                    <ul style="font-size: 9px;">
-                        <li>Perspectiva analítica aplicada al desarrollo web</li>
-                        <li>Enfoque en resolución de problemas técnicos</li>
-                        <li>Adaptabilidad para diversos sectores</li>
-                        <li>Mentalidad orientada a resultados</li>
-                    </ul>
+            
+            <!-- Certificados - Movido al final para estar en página 2 -->
+            <div class="main-section" style="page-break-before: auto; break-before: auto;">
+                <h2 class="section-title">Certificado de Formación</h2>
+                <div class="certificate-display clearfix">
+                    <img src="assets/images/cv_assets/edteam.png" alt="Certificado EDteam" class="certificate-image">
+                    <div class="certificate-info">
+                        <div class="certificate-title">Programación desde Cero (Edición 2020)</div>
+                        <div class="certificate-details">
+                            <strong>EDteam</strong> • 5 Horas de capacitación • 23 de enero de 2021<br>
+                            <em>"Programar no se trata de código, se trata de lógica. Este curso te enseña la lógica que te permitirá dominar cualquier lenguaje."</em><br>
+                            <strong>ID:</strong> 250896205-172ecd07-bbc5-471a-9ac1-84b2fd548725
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
