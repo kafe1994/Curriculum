@@ -1,0 +1,54 @@
+/* Estilos adicionales para el CV Alejandro Liendo */
+
+/* Animaciones suaves */
+.fade-in {
+    animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Efectos hover mejorados */
+.certificate-link:hover {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Mejoras visuales para impresión */
+@media print {
+    .profile-photo {
+        filter: grayscale(20%);
+    }
+    
+    .skill-progress {
+        background: #333 !important;
+    }
+    
+    .certificate-display {
+        border-color: #333 !important;
+    }
+}
+
+/* Responsive básico para móvil */
+@media screen and (max-width: 768px) {
+    .cv-container {
+        flex-direction: column;
+    }
+    
+    .left-column {
+        width: 100% !important;
+        border-bottom: 2px solid #1a2a3a;
+    }
+    
+    .right-column {
+        width: 100% !important;
+    }
+    
+    .profile-photo {
+        width: 80px;
+        height: 80px;
+    }
+}
