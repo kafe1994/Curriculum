@@ -465,6 +465,16 @@
                 page-break-inside: avoid;
                 break-inside: avoid;
             }
+
+            .certificate-display-large {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+
+            .portfolio-qr-large {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
         }
 
         /* Prevenir cortes de elementos críticos */
@@ -595,13 +605,7 @@
                 </div>
             </div>
 
-            <!-- QR del Portafolio -->
-            <div class="portfolio-section">
-                <div class="qr-code"></div>
-                <div class="qr-text">¡Hola! Has escaneado mi QR</div>
-                <div class="qr-description">Escanea para acceder a mi portafolio digital</div>
-                <a href="https://alejandroliendo.site" class="certificate-link">Ver Portafolio Digital</a>
-            </div>
+
         </div>
 
         <!-- Columna Derecha - Información Profesional -->
@@ -722,28 +726,35 @@
                 </div>
             </div>
 
-            <!-- Portafolio Digital -->
-            <div class="main-section">
-                <h2 class="section-title">Portafolio</h2>
-                <div class="section-content">
-                    <p style="font-size: 10px; color: #1a2a3a; font-weight: bold; margin-bottom: 4px;">🌐 alejandroliendo.site</p>
-                    <p style="font-size: 9px; color: #666;">Portfolio con proyectos y testimonios</p>
+            
+            <!-- Certificados y QR - Página 2 optimizada -->
+            <div class="main-section" style="page-break-before: auto; break-before: auto; margin-top: auto;">
+                <h2 class="section-title">Certificado de Formación</h2>
+                <div class="certificate-display-large clearfix" style="background-color: #f8f9fa; border-left: 4px solid #1a2a3a; padding: 20px; margin: 20px 0; page-break-inside: avoid;">
+                    <img src="assets/images/cv_assets/edteam_final.png" alt="Certificado EDteam" class="certificate-image-large" style="width: 140px; height: auto; float: left; margin-right: 20px; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                    <div class="certificate-info" style="overflow: hidden;">
+                        <div class="certificate-title" style="font-size: 14px; font-weight: bold; color: #1a2a3a; margin-bottom: 8px;">Programación desde Cero (Edición 2020)</div>
+                        <div class="certificate-details" style="font-size: 11px; color: #666; line-height: 1.4;">
+                            <strong style="font-size: 12px;">EDteam</strong> • 5 Horas de capacitación • 23 de enero de 2021<br><br>
+                            <em style="color: #555; font-style: italic;">"Programar no se trata de código, se trata de lógica. Este curso te enseña la lógica que te permitirá dominar cualquier lenguaje."</em><br><br>
+                            <strong style="font-size: 10px; color: #1a2a3a;">ID de Verificación:</strong><br>
+                            <span style="font-size: 9px; color: #666; font-family: monospace;">250896205-172ecd07-bbc5-471a-9ac1-84b2fd548725</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <!-- Certificados - Movido al final para estar en página 2 -->
-            <div class="main-section" style="page-break-before: auto; break-before: auto;">
-                <h2 class="section-title">Certificado de Formación</h2>
-                <div class="certificate-display clearfix">
-                    <img src="assets/images/cv_assets/edteam_actualizado.png" alt="Certificado EDteam" class="certificate-image">
-                    <div class="certificate-info">
-                        <div class="certificate-title">Programación desde Cero (Edición 2020)</div>
-                        <div class="certificate-details">
-                            <strong>EDteam</strong> • 5 Horas de capacitación • 23 de enero de 2021<br>
-                            <em>"Programar no se trata de código, se trata de lógica. Este curso te enseña la lógica que te permitirá dominar cualquier lenguaje."</em><br>
-                            <strong>ID:</strong> 250896205-172ecd07-bbc5-471a-9ac1-84b2fd548725
-                        </div>
+            <!-- QR Code - Página 2 -->
+            <div class="main-section" style="margin-top: auto; page-break-before: avoid;">
+                <h2 class="section-title">Portafolio Digital</h2>
+                <div class="portfolio-qr-large" style="text-align: center; padding: 30px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 12px; border: 2px solid #1a2a3a;">
+                    <div class="qr-code-large" style="width: 120px; height: 120px; margin: 0 auto 15px auto; background-image: url('assets/images/cv_assets/qr_nuevo.png'); background-size: contain; background-repeat: no-repeat; background-position: center; border: 2px solid #1a2a3a; border-radius: 8px;"></div>
+                    <div class="qr-text-large" style="font-size: 16px; color: #1a2a3a; font-weight: bold; margin-bottom: 10px;">¡Hola! Has escaneado mi QR</div>
+                    <div class="qr-description-large" style="font-size: 13px; color: #666; line-height: 1.4; max-width: 280px; margin: 0 auto;">
+                        <strong>Escanea para acceder a mi portafolio digital</strong><br>
+                        <span style="font-size: 12px;">📱 alejandroliendo.site</span>
                     </div>
+                    <a href="https://alejandroliendo.site" style="display: inline-block; background-color: #1a2a3a; color: white; padding: 12px 25px; border-radius: 25px; text-decoration: none; font-size: 12px; font-weight: bold; margin-top: 15px; transition: background-color 0.3s ease;">Ver Portafolio Completo</a>
                 </div>
             </div>
         </div>

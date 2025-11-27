@@ -5,13 +5,14 @@ Curriculum vitae profesional de Alejandro Liendo, Desarrollador Web Freelance es
 
 ## Características
 - ✅ **Optimizado para 2 páginas A4 máximo** (210mm x 297mm)
-- ✅ **Versión 3.1 - Actualización final con correcciones** (27 Noviembre 2025)
+- ✅ **Versión 3.1 Final - Reorganización completa de página 2** (27 Noviembre 2025)
+- ✅ **Certificado GRANDE**: 140px de ancho, posicionado prominentemente
+- ✅ **QR GRANDE**: 120px, moved from left column to page 2
 - ✅ **Experiencia corregida**: "Daytona Motos • 2021-2025"
 - ✅ **Fuentes aumentadas**: +1px en todo el CV para mejor legibilidad
-- ✅ **Certificado más grande**: 80px de ancho para mejor visibilidad
-- ✅ **QR mejorado**: Nueva imagen con descripción personalizada
+- ✅ **Página 2 optimizada**: Certificado y QR aprovechan todo el espacio
+- ✅ **QR con descripción completa**: "Escanea para acceder a mi portafolio digital"
 - ✅ **Sección "Valor Agregado" eliminada** para ahorrar espacio
-- ✅ **Certificado reposicionado al final de página 2**
 - ✅ **Márgenes 10mm** para máxima información
 - ✅ **Layout compacto** con información ultra-condensada
 - ✅ **Barras de progreso eliminadas** - Habilidades en listas compactas
@@ -90,14 +91,17 @@ cv-portfolio/
 Generado por MiniMax Agent - Noviembre 2025
 
 ## Actualizaciones
-- **27 Noviembre 2025 - Versión 3.1**: Correcciones finales
+- **27 Noviembre 2025 - Versión 3.1 Final**: Reorganización completa de página 2
+  - ✅ **Certificado**: Grande (140px) y prominente en página 2
+  - ✅ **QR**: Grande (120px) moved from left column to page 2
+  - ✅ **Página 2 optimizada**: Ambas imágenes aprovechan todo el espacio
   - ✅ **Experiencia**: "Córdoba" → "Daytona Motos"
   - ✅ **Fechas**: 2018-2021 → 2021-2025
   - ✅ **Tareas**: Eliminada "Atención al cliente y asesoramiento técnico"
   - ✅ **Fuentes**: Aumentadas en 1px en todo el CV
-  - ✅ **Certificado**: Agrandado de 60px a 80px
-  - ✅ **QR**: Nueva imagen con descripción personalizada
-  - ✅ **Assets**: Actualizados qr_nuevo.png y edteam_actualizado.png
+  - ✅ **QR Description**: "Escanea para acceder a mi portafolio digital"
+  - ✅ **Button**: "Ver Portafolio Completo" integrado
+  - ✅ **Assets**: Actualizados qr_nuevo.png y edteam_final.png
 
 - **Noviembre 2025 - Versión 3.0**: Optimización extrema para **2 páginas A4 máximo**
   - ❌ **Sección "Valor Agregado" eliminada**

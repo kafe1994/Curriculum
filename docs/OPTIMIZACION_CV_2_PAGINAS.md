@@ -31,12 +31,22 @@
 **Página 2:**
 - Certificado EDteam (80px de ancho) al final
 
-### 📊 Resumen de Cambios (Versión 3.1)
+### 📊 Resumen de Cambios (Versión 3.1 Final)
 - **Correcciones laborales**: 3 cambios implementados
 - **Mejoras visuales**: 4 actualizaciones de tamaño
 - **Assets nuevos**: 2 imágenes actualizadas
 - **Funcionalidad**: Descripción agregada al QR
 - **Fuentes**: Aumentadas uniformemente en 1px
+- **Reorganización página 2**: Certificado y QR grandes y prominentes
+- **Eliminaciones**: QR de columna izquierda, sección portafolio redundante
+
+#### **5. REORGANIZACIÓN COMPLETA DE PÁGINA 2**
+- ✅ **Certificado reposicionado**: "Daytona Motos • 2021-2025" más grande y abajo
+- ✅ **QR movido**: De columna izquierda → página 2, grande y prominente
+- ✅ **Imágenes más grandes**: Certificado 140px, QR 120px
+- ✅ **Aprovechamiento completo**: Ambas imágenes dominan la página 2
+- ✅ **Descripción completa**: "Escanea para acceder a mi portafolio digital"
+- ✅ **Link integrado**: "Ver Portafolio Completo" con botón estilizado
 
 ### ✅ Cambios de Versiones Anteriores (Referencia)
 
