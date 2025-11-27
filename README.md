@@ -5,7 +5,11 @@ Curriculum vitae profesional de Alejandro Liendo, Desarrollador Web Freelance es
 
 ## Características
 - ✅ **Optimizado para 2 páginas A4 máximo** (210mm x 297mm)
-- ✅ **Versión 3.0 - Optimización extrema** (Noviembre 2025)
+- ✅ **Versión 3.1 - Actualización final con correcciones** (27 Noviembre 2025)
+- ✅ **Experiencia corregida**: "Daytona Motos • 2021-2025"
+- ✅ **Fuentes aumentadas**: +1px en todo el CV para mejor legibilidad
+- ✅ **Certificado más grande**: 80px de ancho para mejor visibilidad
+- ✅ **QR mejorado**: Nueva imagen con descripción personalizada
 - ✅ **Sección "Valor Agregado" eliminada** para ahorrar espacio
 - ✅ **Certificado reposicionado al final de página 2**
 - ✅ **Márgenes 10mm** para máxima información
@@ -40,7 +44,7 @@ cv-portfolio/
 
 ## Experiencia
 - **Desarrollador Web Freelance** (2021 - Presente)
-- **Técnico de Mantenimiento - Concesionaria de Motocicletas** (2018 - 2021)
+- **Técnico de Mantenimiento - Daytona Motos** (2021 - 2025)
 
 ## Tecnologías
 - HTML & CSS (Avanzado)
@@ -86,6 +90,15 @@ cv-portfolio/
 Generado por MiniMax Agent - Noviembre 2025
 
 ## Actualizaciones
+- **27 Noviembre 2025 - Versión 3.1**: Correcciones finales
+  - ✅ **Experiencia**: "Córdoba" → "Daytona Motos"
+  - ✅ **Fechas**: 2018-2021 → 2021-2025
+  - ✅ **Tareas**: Eliminada "Atención al cliente y asesoramiento técnico"
+  - ✅ **Fuentes**: Aumentadas en 1px en todo el CV
+  - ✅ **Certificado**: Agrandado de 60px a 80px
+  - ✅ **QR**: Nueva imagen con descripción personalizada
+  - ✅ **Assets**: Actualizados qr_nuevo.png y edteam_actualizado.png
+
 - **Noviembre 2025 - Versión 3.0**: Optimización extrema para **2 páginas A4 máximo**
   - ❌ **Sección "Valor Agregado" eliminada**
   - ❌ **Logros destacados en experiencia eliminados**

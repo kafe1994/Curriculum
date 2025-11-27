@@ -1,7 +1,44 @@
 # CV Optimizado - Alejandro Liendo
-## Versión 3.0 - Optimización Extrema para 2 Páginas A4
+## Versión 3.1 - Actualización Final con Correcciones
 
-### ✅ Cambios Implementados (Versión 3.0)
+### ✅ Cambios Implementados (Versión 3.1 - 27 Noviembre 2025)
+
+#### **1. CORRECCIONES DE EXPERIENCIA LABORAL**
+- ✅ **Lugar de trabajo**: "Córdoba" → "Daytona Motos" (más específico)
+- ✅ **Período actualizado**: 2018-2021 → 2021-2025 
+- ✅ **Tareas ajustadas**: Eliminada "Atención al cliente y asesoramiento técnico"
+
+#### **2. MEJORAS VISUALES**
+- ✅ **Aumento de fuentes**: +1px en todo el CV (10px→11px, 9px→10px, etc.)
+- ✅ **Certificado más grande**: 60px → 80px de ancho para mejor visibilidad
+- ✅ **QR actualizado**: Nueva imagen con mensaje personalizado
+- ✅ **Descripción QR**: Agregada explicación "Escanea para acceder a mi portafolio digital"
+
+#### **3. ACTUALIZACIÓN DE ASSETS**
+- ✅ **Nuevo QR**: `qr_nuevo.png` con fondo azul degradado
+- ✅ **Certificado actualizado**: `edteam_actualizado.png` 
+- ✅ **Referencias actualizadas**: URLs de imágenes corregidas en HTML
+
+#### **4. ESTRUCTURA FINAL OPTIMIZADA**
+
+**Página 1:**
+- Encabezado con fuentes aumentadas (+1px)
+- Resumen profesional
+- Experiencia corregida (Daytona Motos, 2021-2025)
+- Servicios (formato columnas)
+- QR con descripción
+
+**Página 2:**
+- Certificado EDteam (80px de ancho) al final
+
+### 📊 Resumen de Cambios (Versión 3.1)
+- **Correcciones laborales**: 3 cambios implementados
+- **Mejoras visuales**: 4 actualizaciones de tamaño
+- **Assets nuevos**: 2 imágenes actualizadas
+- **Funcionalidad**: Descripción agregada al QR
+- **Fuentes**: Aumentadas uniformemente en 1px
+
+### ✅ Cambios de Versiones Anteriores (Referencia)
 
 #### **1. ELIMINACIÓN COMPLETA DE SECCIONES**
 - ❌ **Sección "Valor Agregado"**: Completamente eliminada
